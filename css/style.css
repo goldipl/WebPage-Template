@@ -78,6 +78,7 @@ aside {
     width: 300px;
     background-color: rgb(37, 44, 136);
     transition: .3s linear;
+    z-index: 2;
 }
 
 .fas {
