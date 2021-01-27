@@ -16,12 +16,12 @@ html {
 
 aside>nav>ul>li>a {
     padding: 10px;
+    transition: .3s linear;
 }
 
 aside>nav>ul>li>a:hover {
     background: orange;
     padding: 4px;
-    transition: .3s linear;
 }
 
 .navList {
