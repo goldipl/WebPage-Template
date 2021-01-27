@@ -85,6 +85,7 @@ h1.pottafont {
     font-size: 40px;
     line-height: 50px;
     transition: .3s linear;
+    z-index: 3;
 }
 
 .burgerMenu:hover {
