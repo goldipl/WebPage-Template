@@ -14,6 +14,16 @@ html {
     text-transform: uppercase;
 }
 
+aside>nav>ul>li>a {
+    padding: 10px;
+}
+
+aside>nav>ul>li>a:hover {
+    background: orange;
+    padding: 4px;
+    transition: .3s linear;
+}
+
 .navList {
     padding: 0.6rem;
     text-align: center;
@@ -52,10 +62,17 @@ p {
     text-align: center;
 }
 
-h1 {
+h1.pottafont {
     text-align: center;
     padding-bottom: 0.5rem;
     font-family: 'Potta One', sans-serif;
+}
+
+.menuText {
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-family: 'Potta One', sans-serif;
+    color: white;
 }
 
 
