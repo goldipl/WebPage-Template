@@ -10,7 +10,7 @@ html {
 .aNavList {
     text-decoration: none;
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     text-transform: uppercase;
 }
 
@@ -36,7 +36,7 @@ nav ul {
 
 ul li {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
 
 .header {
@@ -58,7 +58,7 @@ section {
 
 p {
     padding: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     text-align: center;
 }
 
