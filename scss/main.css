@@ -207,6 +207,14 @@ header.header .headerImage img {
   margin-bottom: -4px;
 }
 
+section {
+  margin: 40px auto;
+}
+
+section h1 {
+  margin-bottom: 16px;
+}
+
 footer {
   text-align: center;
 }
@@ -227,5 +235,16 @@ body {
   background-color: #FFFFFF;
   color: #222222;
   font-size: 18px;
+}
+
+.wrapper {
+  width: 70vw;
+  margin: 40px auto;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 90vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */
