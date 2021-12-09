@@ -200,7 +200,7 @@ nav .desktopMenu li a {
 }
 
 header.header .headerImage img {
-  height: 60vh;
+  height: 55vh;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
