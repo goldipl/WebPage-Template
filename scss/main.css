@@ -200,8 +200,10 @@ nav .desktopMenu li a {
 }
 
 header.header .headerImage img {
-  height: auto;
+  height: 60vh;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-bottom: -4px;
 }
 
