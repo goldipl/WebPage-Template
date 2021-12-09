@@ -1,94 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WebPage Template</title>
-    <!-- Ikonki -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <!-- Page Icon -->
+    <link rel="icon" href="./img/icon.jpg">
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- Fonty -->
+    <link rel="stylesheet" href="./scss/main.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>Webpage</title>
 </head>
 
 <body>
 
-    <!-- Nawigacja -->
-    <div class="burgerMenu">
-        <i class="fas fa-bars show"></i>
-        <i class="fas fa-times "></i>
-    </div>
-    <aside>
-        <nav>
-            <ul>
-                <h2 class="menuText">MENU</h2>
-                <li class="navList"><a class="aNavList" href="index.html">Strona główna</a></li>
-                <li class="navList"><a class="aNavList" href="strona01.html">Podstrona 1</a></li>
-                <li class="navList"><a class="aNavList" href="strona02.html">Podstrona 2</a></li>
-                <li class="navList"><a class="aNavList" href="strona03.html">Podstrona 3</a></li>
-            </ul>
-        </nav>
-    </aside>
-    <!-- Header -->
-    <header class="header">
-        <p class="centeredText">Witamy! Strona glówna</p>
-        <div class="contentDiv">
-            <a href="#section01"><img class="arrow" src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-128.png" /></a>
-        </div>
-    </header>
-    <!-- Sekcja 1 -->
-    <section class="whiteSection" id="section01">
-        <h1 class="pottafont">Naglówek</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, fugiat! Sapiente quae ea, aliquam nemo amet ullam maiores in aperiam soluta, explicabo dolorum dignissimos, veniam consequuntur dolore veritatis. Excepturi, laborum! Cupiditate quam voluptas
-            fugit doloremque eos perferendis beatae omnis libero nobis illum et debitis laboriosam quia reiciendis dolores magnam hic, esse, doloribus ab tenetur recusandae. Dolorum possimus recusandae enim natus! Delectus tempora explicabo enim voluptate
-            officia, beatae vero blanditiis omnis exercitationem totam saepe quibusdam necessitatibus consectetur eos, et aperiam. Laudantium eaque beatae, explicabo ducimus impedit dolorem aspernatur doloribus molestias nostrum. Quidem tempora nemo tempore
-            unde nihil officiis. Repellendus, laudantium nemo delectus labore ipsam iure reprehenderit ipsum ipsa, itaque praesentium amet doloremque, numquam blanditiis maxime ducimus? Minus amet inventore quaerat iste? Minima, voluptatem natus velit
-            commodi eaque nihil sit optio ab hic culpa aut impedit enim voluptas consequuntur perferendis soluta error quam labore harum quae molestiae mollitia odio. Iusto, harum quaerat.
-        </p>
-        <ul>
-            <li>lista</li>
-            <li>lista</li>
-            <li>lista</li>
-            <li>lista</li>
-            <li>lista</li>
-            <li>lista</li>
+    <!-- Nav -->
+    <nav>
+        <a href="index.html" class="logo">Webpage</a>
+        <ul class="desktopMenu">
+            <li><a href="index.html">Main</a></li>
+            <li><a href="#section01">Section01</a></li>
+            <li><a href="#section02">Section02</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
+        <div class="hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <div class="mobileMenu">
+            <ul class="mobileMenu_li">
+                <li><a href="index.html">Main</a></li>
+                <li><a href="#section01">Section01</a></li>
+                <li><a href="#section02">Section02</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="headerImage">
+            <img src="./img/IMG01.jpg" alt="headerImage">
+        </div>
+    </header>
+
+    <!-- Section 01 -->
+    <section class="section01" id="section01">
+
     </section>
 
-    <!-- Sekcja 2 -->
-    <section class="orangeSection">
-        <h1 class="pottafont">Naglówek</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, fugiat! Sapiente quae ea, aliquam nemo amet ullam maiores in aperiam soluta, explicabo dolorum dignissimos, veniam consequuntur dolore veritatis. Excepturi, laborum! Cupiditate quam voluptas
-            fugit doloremque eos perferendis beatae omnis libero nobis illum et debitis laboriosam quia reiciendis dolores magnam hic, esse, doloribus ab tenetur recusandae. Dolorum possimus recusandae enim natus! Delectus tempora explicabo enim voluptate
-            officia, beatae vero blanditiis omnis exercitationem totam saepe quibusdam necessitatibus consectetur eos, et aperiam. Laudantium eaque beatae, explicabo ducimus impedit dolorem aspernatur doloribus molestias nostrum. Quidem tempora nemo tempore
-            unde nihil officiis. Repellendus, laudantium nemo delectus labore ipsam iure reprehenderit ipsum ipsa, itaque praesentium amet doloremque, numquam blanditiis maxime ducimus? Minus amet inventore quaerat iste? Minima, voluptatem natus velit
-            commodi eaque nihil sit optio ab hic culpa aut impedit enim voluptas consequuntur perferendis soluta error quam labore harum quae molestiae mollitia odio. Iusto, harum quaerat.
-        </p>
+    <!-- Section 02 -->
+    <section class="section02" id="section02">
+
     </section>
 
-    <!-- Sekcja 3 -->
-    <section class="whiteSection">
-        <h1 class="pottafont">Naglówek</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, fugiat! Sapiente quae ea, aliquam nemo amet ullam maiores in aperiam soluta, explicabo dolorum dignissimos, veniam consequuntur dolore veritatis. Excepturi, laborum! Cupiditate quam voluptas
-            fugit doloremque eos perferendis beatae omnis libero nobis illum et debitis laboriosam quia reiciendis dolores magnam hic, esse, doloribus ab tenetur recusandae. Dolorum possimus recusandae enim natus! Delectus tempora explicabo enim voluptate
-            officia, beatae vero blanditiis omnis exercitationem totam saepe quibusdam necessitatibus consectetur eos, et aperiam. Laudantium eaque beatae, explicabo ducimus impedit dolorem aspernatur doloribus molestias nostrum. Quidem tempora nemo tempore
-            unde nihil officiis. Repellendus, laudantium nemo delectus labore ipsam iure reprehenderit ipsum ipsa, itaque praesentium amet doloremque, numquam blanditiis maxime ducimus? Minus amet inventore quaerat iste? Minima, voluptatem natus velit
-            commodi eaque nihil sit optio ab hic culpa aut impedit enim voluptas consequuntur perferendis soluta error quam labore harum quae molestiae mollitia odio. Iusto, harum quaerat.
-        </p>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
     </section>
 
-    <footer class="orangeSection">
-        <p>Strona &copy; 2021</p>
+    <!-- Footer -->
+    <footer class="colorSection footerSection">
+        <div class="footerCopyright">
+            Copyright © 2021 - Webpage
+        </div>
     </footer>
 
+    <!-- JS -->
     <script src="./js/script.js"></script>
 </body>
 

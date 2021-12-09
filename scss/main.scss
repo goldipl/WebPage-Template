@@ -1,0 +1,14 @@
+@import 'reset';
+@import 'variables';
+@import 'nav';
+@import 'header';
+@import 'buttons';
+@import 'sections';
+@import 'footer';
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    background-color: $whiteColor01;
+    color: $blackColor01;
+    font-size: 18px;
+}
