@@ -1,6 +1,6 @@
 @import 'variables';
-header.header .headerImage {
-    height: 60vh;
+header.header .headerImage img {
+    height: auto;
     width: 100%;
-    background-image: linear-gradient(to bottom, $whiteColor01, $blueColor01), url('https://github.com/goldipl/WebPage-Template/blob/main/img/IMG01.jpg?raw=true');
+    margin-bottom: -4px;
 }

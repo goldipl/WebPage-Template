@@ -7,7 +7,7 @@
 }
 
 nav {
-  height: 10vh;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,11 +199,10 @@ nav .desktopMenu li a {
   margin-right: 0 !important;
 }
 
-header.header .headerImage {
-  height: 60vh;
+header.header .headerImage img {
+  height: auto;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#797EF6)), url("https://github.com/goldipl/WebPage-Template/blob/main/img/IMG01.jpg?raw=true");
-  background-image: linear-gradient(to bottom, #FFFFFF, #797EF6), url("https://github.com/goldipl/WebPage-Template/blob/main/img/IMG01.jpg?raw=true");
+  margin-bottom: -4px;
 }
 
 footer {
