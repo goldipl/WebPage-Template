@@ -47,7 +47,25 @@
     <!-- Header -->
     <header class="header">
         <div class="headerImage">
-            <img src="./img/IMG01.jpg" alt="headerImage">
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./img/IMG01.jpg" alt="headerImage">Slide 1</div>
+                    <div class="swiper-slide"><img src="./img/IMG01.jpg" alt="headerImage">Slide 2</div>
+                    <div class="swiper-slide"><img src="./img/IMG01.jpg" alt="headerImage">Slide 3</div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
         </div>
     </header>
 
@@ -94,6 +112,8 @@
     </footer>
 
     <!-- JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
