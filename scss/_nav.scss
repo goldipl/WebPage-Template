@@ -24,20 +24,38 @@ nav .desktopMenu li {
     padding: 0px 24px;
     cursor: pointer;
     line-height: 60px;
-    transition: 0.3s linear;
     list-style: none;
 }
 
-nav .desktopMenu li:hover {
-    color: $whiteColor01;
-}
-
 nav .desktopMenu li a {
+    position: relative;
+    cursor: pointer;
+    line-height: 60px;
+    transition: 0.3s linear;
+    list-style: none;
     color: $blackColor01;
     text-decoration: none;
     font-size: 24px;
     font-weight: 500;
     padding: 8px;
+}
+
+nav .desktopMenu li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '';
+    color: transparent;
+    background: $blueColor01;
+    height: 1px;
+    transition: all 0.5s;
+}
+
+nav .desktopMenu li a:hover::after {
+    width: 100%;
 }
 
 @media (max-width: 1100px) {
