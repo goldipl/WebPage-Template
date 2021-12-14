@@ -141,6 +141,7 @@ nav .desktopMenu li a:hover::after {
     visibility: visible;
     opacity: 1;
     transition: 0.6s;
+    z-index: 2;
 }
 
 .mobileMenu .mobileMenu_li {
