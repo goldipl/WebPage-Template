@@ -21,10 +21,26 @@ nav .desktopMenu {
 }
 
 nav .desktopMenu li {
+    position: relative;
     padding: 0px 24px;
     cursor: pointer;
     line-height: 60px;
     list-style: none;
+}
+
+nav .desktopMenu li::after {
+    display: block;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: $blueColor01;
+    position: absolute;
+    bottom: calc(50% - 6px);
+    left: -4px;
+}
+
+nav .desktopMenu li:first-of-type::after {
+    display: none;
 }
 
 nav .desktopMenu li a {
