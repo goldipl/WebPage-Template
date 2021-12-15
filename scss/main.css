@@ -24,7 +24,7 @@ nav a.logo {
   font-weight: 600;
   margin-left: 16px;
   text-decoration: none;
-  color: #797EF6;
+  color: #007AFF;
 }
 
 nav .desktopMenu {
@@ -48,7 +48,7 @@ nav .desktopMenu li::after {
   content: '';
   width: 8px;
   height: 8px;
-  background: #797EF6;
+  background: #007AFF;
   position: absolute;
   bottom: calc(50% - 6px);
   left: -4px;
@@ -81,7 +81,7 @@ nav .desktopMenu li a::after {
   width: 0%;
   content: '';
   color: transparent;
-  background: #797EF6;
+  background: #007AFF;
   height: 1px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -117,19 +117,19 @@ nav .desktopMenu li a:hover::after {
 
 .hamburger .bar2 {
   height: 2px;
-  background: #797EF6;
+  background: #007AFF;
   margin: 5px auto;
 }
 
 .hamburger .bar3 {
   height: 2px;
-  background: #797EF6;
+  background: #007AFF;
   margin: 14px auto;
 }
 
 .hamburger.active .bar1 {
   height: 2px;
-  background: #797EF6;
+  background: #007AFF;
   margin: 6px auto;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -143,7 +143,7 @@ nav .desktopMenu li a:hover::after {
 
 .hamburger.active .bar3 {
   height: 2px;
-  background: #797EF6;
+  background: #007AFF;
   margin: 6px auto;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -211,7 +211,7 @@ nav .desktopMenu li a:hover::after {
 
 .mobileMenu .mobileMenu_li li:hover {
   color: #FFFFFF;
-  background: #797EF6;
+  background: #007AFF;
 }
 
 .mobileMenu .mobileMenu_li li:hover a {
@@ -273,7 +273,7 @@ footer {
 
 .footerSection {
   background: none;
-  background-color: #797EF6;
+  background-color: #007AFF;
   color: #FFFFFF;
 }
 
@@ -298,7 +298,7 @@ h1::after {
   content: '';
   width: 60px;
   height: 8px;
-  background: #797EF6;
+  background: #007AFF;
   position: absolute;
   bottom: 4px;
   left: 0;
@@ -324,8 +324,8 @@ p {
   width: 320px;
   height: auto;
   padding: 40px;
-  border-top: 4px dotted #797EF6;
-  border-bottom: 4px dotted #797EF6;
+  border-top: 4px dotted #007AFF;
+  border-bottom: 4px dotted #007AFF;
 }
 
 .textImageContainer .textContainer {
