@@ -1,12 +1,15 @@
 const burger = document.querySelector(".hamburger");
 const mobileMenu = document.querySelector(".mobileMenu");
-const mobileMenuA = document.querySelector(".mobileMenu_li");
-const html = document.querySelector("html");
-const bodyNews = document.querySelector("body.news");
+const mobileMenuLi = document.querySelector(".mobileMenu_li");
 
 burger.addEventListener("click", () => {
     burger.classList.toggle("active");
     mobileMenu.classList.toggle("active");
+});
+
+mobileMenuLi.addEventListener("click", () => {
+    burger.classList.remove("active");
+    mobileMenu.classList.remove("active");
 });
 
 /**
