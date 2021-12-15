@@ -38,6 +38,29 @@ p {
     margin: 40px auto;
 }
 
+.textImageContainer {
+    display: flex;
+}
+
+.textImageContainer .imageContainer img {
+    width: 320px;
+    height: auto;
+    padding: 40px;
+    border-top: 4px dotted $blueColor01;
+    border-bottom: 4px dotted $blueColor01;
+}
+
+.textImageContainer .textContainer {
+    width: 60%;
+}
+
+.textImageContainer .imageContainer {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
 @media (max-width: 600px) {
     .wrapper {
         width: 90vw;
