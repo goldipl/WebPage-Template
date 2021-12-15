@@ -59,6 +59,17 @@ p {
     display: flex;
     justify-content: center;
     align-self: center;
+    margin: 24px;
+}
+
+@media (max-width: 1000px) {
+    .textImageContainer {
+        flex-direction: column;
+    }
+    .textImageContainer .textContainer,
+    .textImageContainer .imageContainer {
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {

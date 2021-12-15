@@ -325,6 +325,20 @@ p {
           justify-content: center;
   -ms-flex-item-align: center;
       align-self: center;
+  margin: 24px;
+}
+
+@media (max-width: 1000px) {
+  .textImageContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .textImageContainer .textContainer,
+  .textImageContainer .imageContainer {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
