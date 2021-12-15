@@ -280,12 +280,13 @@ h1 {
 h1::after {
   display: block;
   content: '';
-  width: 40px;
-  height: 4px;
+  width: 60px;
+  height: 8px;
   background: #797EF6;
   position: absolute;
-  bottom: 0;
+  bottom: 4px;
   left: 0;
+  z-index: -1;
 }
 
 p {
