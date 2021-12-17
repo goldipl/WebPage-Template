@@ -92,6 +92,10 @@ nav .desktopMenu li a:hover::after {
   width: 100%;
 }
 
+nav li {
+  text-transform: uppercase;
+}
+
 @media (max-width: 1100px) {
   nav .desktopMenu {
     display: none;
