@@ -276,6 +276,10 @@ footer {
   text-align: center;
 }
 
+.footerSection a {
+  color: #FFFFFF;
+}
+
 .footerSection {
   background: none;
   background-color: #007AFF;
