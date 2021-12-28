@@ -12,6 +12,9 @@ mobileMenuLi.addEventListener("click", () => {
     mobileMenu.classList.remove("active");
 });
 
+const footerYear = document.querySelector(".footerCopyrightYear");
+footerYear.innerHTML = new Date().getFullYear();
+
 /**
  * Swiper 7.3.2
  * Most modern mobile touch slider and framework with hardware accelerated transitions
