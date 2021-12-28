@@ -290,6 +290,10 @@ footer {
   padding: 16px;
 }
 
+.footerCopyright > div {
+  font-size: 12px;
+}
+
 body {
   font-family: 'Readex Pro', sans-serif;
   font-weight: 300;
