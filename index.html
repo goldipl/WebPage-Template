@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Page Icon -->
     <link rel="icon" href="./img/icon.jpg">
+    <!-- AOS.js CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="./scss/main.css">
     <!-- Fonts -->
@@ -80,7 +82,7 @@
         <!-- Section 01 -->
         <section class="section01" id="section01">
             <h1>Section 01</h1>
-            <div class="textImageContainer">
+            <div class="textImageContainer" data-aos="fade-right">
                 <div class="textContainer">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum tempore nemo sit expedita iusto molestias, voluptatum aliquam alias voluptatem recusandae dicta id ad reiciendis, velit ea natus distinctio minus. Accusamus. Quod, doloribus
                         odit officiis ratione dignissimos molestias magnam incidunt quo ipsa sunt velit, tenetur beatae ipsum, non quisquam nobis iusto sed aliquam. Molestiae sapiente eligendi, magnam labore earum vel quidem? Vero, quas consectetur illum
@@ -96,7 +98,7 @@
         </section>
 
         <!-- Section 02 -->
-        <section class="section02" id="section02">
+        <section class="section02" id="section02" data-aos="fade-left">
             <h1>Section 02</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum tempore nemo sit expedita iusto molestias, voluptatum aliquam alias voluptatem recusandae dicta id ad reiciendis, velit ea natus distinctio minus. Accusamus. Quod, doloribus odit
                 officiis ratione dignissimos molestias magnam incidunt quo ipsa sunt velit, tenetur beatae ipsum, non quisquam nobis iusto sed aliquam. Molestiae sapiente eligendi, magnam labore earum vel quidem? Vero, quas consectetur illum ducimus voluptas,
@@ -113,7 +115,7 @@
         </section>
 
         <!-- Contact -->
-        <section class="contact" id="contact">
+        <section class="contact" id="contact" data-aos="fade-right">
             <h1>Contact</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum tempore nemo sit expedita iusto molestias, voluptatum aliquam alias voluptatem recusandae dicta id ad reiciendis, velit ea natus distinctio minus. Accusamus. Quod, doloribus odit
                 officiis ratione dignissimos molestias magnam incidunt quo ipsa sunt velit, tenetur beatae ipsum, non quisquam nobis iusto sed aliquam. Molestiae sapiente eligendi, magnam labore earum vel quidem? Vero, quas consectetur illum ducimus voluptas,
@@ -138,10 +140,16 @@
         </div>
     </footer>
 
+    <!-- AOS.js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- JS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
+    <!-- AOS.js init-->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
